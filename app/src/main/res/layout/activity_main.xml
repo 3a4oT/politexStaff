@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/zowut"
+    android:orientation="vertical"
+    android:weightSum="100">
+    <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+      <ImageView
+            android:id="@+id/iChange"
+            android:layout_width="48dp"
+            android:layout_height="46dp"
+            android:src="@drawable/bank"
+             />
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:text="@string/logo_secia"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+<ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="30">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10" >
+
+            <TextView
+                android:id="@+id/tvID"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/db_ID"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/tvSubjectName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="@string/db_Name"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/tvMark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:text="@string/db_Mark"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/tvCoef"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/db_Kof"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+ </ScrollView>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:layout_weight="30"
+    >
+    <TextView
+        android:id="@+id/tvSQLShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="40"
+        >
+
+        <ImageView
+            android:id="@+id/iListItems"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/restart" />
+
+        <ImageView
+            android:id="@+id/iAdd"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/add"
+            />
+
+        <ImageView
+            android:id="@+id/iEdit"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/edit"
+            />
+
+        <ImageView
+            android:id="@+id/iDelete"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/delete"/>
+             <ImageView
+            android:id="@+id/iCount"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/play"/>
+
+    </LinearLayout>
+
+   
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PolitexStuff</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="about">ПолітехStuff 0.2a (17.01.2013)Build on Linux \n =======================\nАвтор:Петро Ровенський \n====================== \nВідгук petro.rovenskyy@gmail.com</string>
+    <string name="db_ID">#</string>
+    <string name="db_Name">назва предмету</string>
+    <string name="db_Mark">Бал</string>
+    <string name="db_Kof">Коефіціент</string>
+    <string name="logo_secia">Сесія:</string>
+
+</resources>

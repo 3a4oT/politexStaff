@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvConvertTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Зачекайте....йде завантаження" />
+
+   <TextView
+        android:id="@+id/tvConvertRezalt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=""
+        android:textColor="#FF0000"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+        <Spinner
+            android:id="@+id/spFirst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           />
+
+        <ImageView
+            android:id="@+id/imConverter"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:src="@drawable/converter" />
+
+        <Spinner
+            android:id="@+id/spSecond"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             />
+   
+
+    <EditText
+        android:id="@+id/edConvertSum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Веддіть суму"
+        android:inputType="numberSigned"
+        android:textColorHint="#800080" >
+
+        <requestFocus />
+    </EditText>
+
+ 
+
+</LinearLayout>

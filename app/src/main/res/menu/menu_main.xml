@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:title="Видалити Сесію"
+        android:id="@+id/deleteAll"
+        android:numericShortcut="3"
+        android:alphabeticShortcut="d"/> 
+
+    <item
+        android:title="Про програму"
+        android:id="@+id/aboutUs"
+        android:numericShortcut="1"
+        android:alphabeticShortcut="a"/>
+        <item
+        android:title="Вийти"
+        android:id="@+id/exit"
+        android:numericShortcut="0"
+        android:alphabeticShortcut="e"/>         
+
+</menu>
